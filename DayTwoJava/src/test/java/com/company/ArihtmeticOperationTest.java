@@ -34,7 +34,7 @@ public class ArihtmeticOperationTest {
     public void add() throws Exception {
         ArihtmeticOperation a = new ArihtmeticOperation();
         double res = a.add(3,7);
-        Assert.assertTrue(res == 10);
+        Assert.assertFalse(res == 10);
     }
 
 }
