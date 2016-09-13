@@ -1,6 +1,8 @@
 package com.company;
 
 import org.junit.*;
+import org.junit.rules.ExpectedException;
+import org.junit.rules.Timeout;
 
 import static org.junit.Assert.*;
 
@@ -8,6 +10,12 @@ import static org.junit.Assert.*;
  * Created by Serhii_Kobzar on 9/13/2016.
  */
 public class ArihtmeticOperationTest {
+
+    @Rule
+    public final ExpectedException exp = ExpectedException.none();
+
+    @Rule
+    public Timeout time = Timeout.millis(1000);
 
     @Test
     public void deduct() throws Exception {
@@ -41,9 +49,10 @@ public class ArihtmeticOperationTest {
 
     }
 
-    @Test (expected = ArithmeticException.class)
+    @Test //(expected = ArithmeticException.class)
     public void testDiveExeption(){
         ArihtmeticOperation a = new ArihtmeticOperation();
+        exp.expect(ArithmeticException.class);
         a.div(4,0);
     }
 

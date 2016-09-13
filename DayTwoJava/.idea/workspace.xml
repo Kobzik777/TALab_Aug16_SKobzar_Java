@@ -58,8 +58,8 @@
       <file leaf-file-name="ArihtmeticOperationTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/company/ArihtmeticOperationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="52" column="17" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
+            <state relative-caret-position="272">
+              <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -542,12 +542,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ArihtmeticOperationTest - 2016.09.13 at 16h 00m 08s.xml">
-      <configuration name="ArihtmeticOperationTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ArihtmeticOperationTest - 2016.09.13 at 16h 00m 40s.xml">
-      <configuration name="ArihtmeticOperationTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ArihtmeticOperationTest - 2016.09.13 at 16h 03m 47s.xml">
       <configuration name="ArihtmeticOperationTest" configurationId="JUnit" />
     </history-entry>
@@ -570,6 +564,12 @@
       <configuration name="ArihtmeticOperationTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ArihtmeticOperationTest - 2016.09.13 at 16h 24m 28s.xml">
+      <configuration name="ArihtmeticOperationTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ArihtmeticOperationTest - 2016.09.13 at 16h 30m 57s.xml">
+      <configuration name="ArihtmeticOperationTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ArihtmeticOperationTest - 2016.09.13 at 16h 35m 22s.xml">
       <configuration name="ArihtmeticOperationTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -802,8 +802,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/company/ArihtmeticOperationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="52" column="17" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
+        <state relative-caret-position="272">
+          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
