@@ -9,7 +9,6 @@ import static org.junit.Assert.*;
  */
 public class ArihtmeticOperationTest {
 
-    @Ignore
     @Test
     public void deduct() throws Exception {
         ArihtmeticOperation a = new ArihtmeticOperation();
@@ -31,6 +30,13 @@ public class ArihtmeticOperationTest {
         ArihtmeticOperation a = new ArihtmeticOperation();
         double res = a.div(4,2);
         Assert.assertEquals(2.0, res, 0);
+        try {
+            a.div(4,4);
+            Assert.fail();
+        }
+        catch (Exception e){
+
+        }
 
     }
 
