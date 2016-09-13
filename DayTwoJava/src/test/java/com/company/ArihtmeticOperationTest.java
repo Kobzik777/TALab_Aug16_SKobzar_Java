@@ -13,21 +13,21 @@ public class ArihtmeticOperationTest {
     public void deduct() throws Exception {
         ArihtmeticOperation a = new ArihtmeticOperation();
         double res = a.deduct(7,3);
-        if (res != 4) Assert.fail();
+        Assert.assertEquals(4.0, res, 0);
     }
 
     @Test
     public void mult() throws Exception {
         ArihtmeticOperation a = new ArihtmeticOperation();
         double res = a.mult(3,7);
-        if (res != 21) Assert.fail();
+        Assert.assertEquals(21.0, res, 0);
     }
 
     @Test
     public void div() throws Exception {
         ArihtmeticOperation a = new ArihtmeticOperation();
         double res = a.div(4,2);
-        if (res != 2) Assert.fail();
+        Assert.assertEquals(2.0, res, 0);
     }
 
     @Test
