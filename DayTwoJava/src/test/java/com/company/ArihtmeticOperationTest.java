@@ -30,7 +30,7 @@ public class ArihtmeticOperationTest {
         ArihtmeticOperation a = new ArihtmeticOperation();
         double res = a.div(4,2);
         Assert.assertEquals(2.0, res, 0);
-        
+
     }
 
     @Test
@@ -45,6 +45,12 @@ public class ArihtmeticOperationTest {
     public void testDiveExeption(){
         ArihtmeticOperation a = new ArihtmeticOperation();
         a.div(4,0);
+    }
+
+    @Test (timeout = 1000)
+    public void timeTest(){
+        ArihtmeticOperation a = new ArihtmeticOperation();
+        a.div(4,2);
     }
 
 }
