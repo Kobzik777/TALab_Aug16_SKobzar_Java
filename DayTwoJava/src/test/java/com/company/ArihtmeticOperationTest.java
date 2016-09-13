@@ -1,9 +1,6 @@
 package com.company;
 
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.BeforeClass;
-import org.junit.Test;
+import org.junit.*;
 
 import static org.junit.Assert.*;
 
@@ -11,7 +8,8 @@ import static org.junit.Assert.*;
  * Created by Serhii_Kobzar on 9/13/2016.
  */
 public class ArihtmeticOperationTest {
-    
+
+    @Ignore
     @Test
     public void deduct() throws Exception {
         ArihtmeticOperation a = new ArihtmeticOperation();
