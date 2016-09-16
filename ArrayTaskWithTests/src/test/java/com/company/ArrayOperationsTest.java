@@ -45,4 +45,25 @@ public class ArrayOperationsTest {
         int[] res = ArrayOperations.findIndexesOfArray(moreThenOneTest,1);
         Assert.assertArrayEquals(res,moreThenOneResult);
     }
+
+    @Test
+    public void findCountOfValueInEmptyArray(){
+        int[] arrayFroEmtyCount = {};
+        int res = ArrayOperations.findCountOfValueInArray(arrayFroEmtyCount,1);
+        Assert.assertEquals(res,0);
+    }
+
+    @Test
+    public void findCountOfValueInNotEmtyArrayWithoutSearchingElement(){
+        int arrayWithElements[] = {1,2,3,4,5,6,7};
+        int res = ArrayOperations.findCountOfValueInArray(arrayWithElements,22);
+        Assert.assertEquals(res,0);
+    }
+
+    @Test
+    public void findCountOfValueInNotEmtyArrayWithSearchingElement(){
+        int arrayWithElements[] = {1,2,3,4,5,6,7,1,1};
+        int res = ArrayOperations.findCountOfValueInArray(arrayWithElements,1);
+        Assert.assertEquals(res,3);
+    }
 }
