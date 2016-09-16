@@ -5,7 +5,7 @@ package com.company;
  */
 public class ArrayOperations {
 
-    private ArrayOperations() {}
+
 
     public static int findCountOfValueInArray(int [] array, int value) {
         int count = 0;
