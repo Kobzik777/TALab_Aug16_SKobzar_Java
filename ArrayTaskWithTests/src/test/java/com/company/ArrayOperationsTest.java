@@ -28,14 +28,14 @@ public class ArrayOperationsTest {
     @Test
     public void testFindIndexesOfArrayOneElementArrayWithElementIncluded() throws Exception {
         int[] oneElementArraForTest= {1};
-        int[] res = ArrayOperations.findIndexesOfArray(oneElementArray,1);
+        int[] res = ArrayOperations.findIndexesOfArray(oneElementArraForTest,1);
         Assert.assertEquals(oneElementArray.length,res.length);
     }
 
     @Test
     public void testFindIndexesOfArrayOneElementArrayWithElementExcluded() throws Exception{
         int[] oneElementArraForTest= {1};
-        int[] res = ArrayOperations.findIndexesOfArray(oneElementArray,2);
+        int[] res = ArrayOperations.findIndexesOfArray(oneElementArraForTest,2);
         Assert.assertEquals(emptyArray.length,res.length);
     }
 
