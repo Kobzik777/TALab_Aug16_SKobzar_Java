@@ -21,13 +21,13 @@ public class ModelTest {
     @Test
     public void checkValueWithOverMaxValueInput() throws Exception {
         boolean res = model.checkValue(150, gameIsRunning);
-        Assert.assertTrue(res);
+        Assert.assertNotEquals(model.getMaxValue(),150);
     }
 
     @Test
     public void checkValueWithOverMinValueInput() throws Exception {
         boolean res = model.checkValue(-100, gameIsRunning);
-        Assert.assertTrue(res);
+        Assert.assertNotEquals(model.getMinValue(),-100);
     }
 
     @Test
