@@ -38,7 +38,7 @@ public class Model {
     }
 
     public void setCellFirst(String someValue) {
-        noteBook.getFirstCellPhoneNumber();
+        noteBook.setFirstCellPhoneNumber(someValue);
     }
 
     public void setCellSecond(String someValue) {
